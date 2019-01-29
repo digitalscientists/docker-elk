@@ -1,0 +1,11 @@
+apm-server:
+  host: apm:8200
+
+output:
+  elasticsearch:
+    hosts: elasticsearch:9200
+
+setup.kibana.host: kibana:5601
+setup.dashboards.enabled: true
+setup.dashboards.always_kibana: true
+setup.dashboards.retry.enabled: true
