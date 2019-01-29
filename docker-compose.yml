@@ -49,7 +49,7 @@ services:
       - elasticsearch
 
   apm:
-    image: docker.elastic.co/apm/apm-server:6.5.4
+    image: docker.elastic.co/apm/apm-server:6.6.0
     volumes:
       - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
     ports:
